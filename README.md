@@ -5,7 +5,7 @@ This test aims to access your React.js abilities and comfort with the core conce
 
 ## Task 
 - You are tasked to develop the site following [this design](https://www.figma.com/file/j5mc2Vl9LvAuHnK1q5ly4y/Smart-Crypto-Wallet-Landing-Page-UI-UX-Responsive-Design-(Community)?node-id=1%3A2), you should make sure that you: 
-- You Use a modern React.js template framework (cra, next, gatsby)
+- You should use a modern React.js template framework (cra, next, gatsby)
 - Your site is fully responsive
 - You add animations to your components.
 
