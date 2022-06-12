@@ -5,6 +5,10 @@ import styled from "styled-components";
 import mobileCrypto from "../assets/mobile-crypto.png";
 import pattern from "../assets/pattern-background.png";
 import videoPlayer from "../assets/play-circle.png";
+import coinbase from "../assets/coinbase.png";
+import blockChain from "../assets/block-chain.png";
+import bitMex from "../assets/bitmex.png";
+import binance from "../assets/binance.png";
 
 const BannerSection = styled.section`
   display: flex;
@@ -58,6 +62,67 @@ const BannerSection = styled.section`
       gap: 9px;
     }
   }
+
+  .users-and-features {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+
+    .users,
+    .features {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .users p:first-of-type,
+    .features p:first-of-type {
+      font-weight: 700;
+      color: var(--th-green);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0.016em;
+      text-align: center;
+    }
+
+    .users p:last-of-type,
+    .features p:last-of-type {
+      color: var(--text-color);
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 18px;
+      letter-spacing: 0.016em;
+      text-align: left;
+    }
+  }
+
+  .recommended {
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.016em;
+    text-align: center;
+    color: var(--th-green);
+  }
+
+  .recommended::after,
+  .recommended::before {
+    content: "";
+    height: 1px;
+    width: 59px;
+    background-color: var(--call-to-action);
+    top: 13px;
+    position: absolute;
+  }
+  .recommended::after {
+    right: -70px;
+  }
+  .recommended::before {
+    left: -70px;
+  }
 `;
 
 function Banner() {
@@ -103,6 +168,12 @@ function Banner() {
           </div>
         </div>
         <div className='recommended'>recommended by</div>
+        <div className='brands'>
+          <Image src={coinbase} alt='coinbase logo' />
+          <Image src={blockChain} alt='blockchain logo' />
+          <Image src={binance} alt='binance logo' />
+          <Image src={bitMex} alt='bitmex logo' />
+        </div>
       </div>
     </BannerSection>
   );
