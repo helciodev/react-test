@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
-
+import mobileCrypto from "../assets/mobile-crypto.png";
 const BannerSection = styled.section`
   display: flex;
   flex-direction: column;
@@ -33,6 +34,12 @@ function Banner() {
           A Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry&apos;s{" "}
         </p>
+      </div>
+      <div className='mobile-crypto'>
+        <Image
+          src={mobileCrypto}
+          alt='mobile phone illustrating crypto currency'
+        />
       </div>
     </BannerSection>
   );
