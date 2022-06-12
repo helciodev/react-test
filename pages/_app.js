@@ -6,20 +6,19 @@ const GlobalStyles = createGlobalStyle`
   box-sizing: inherit;
 }
 @font-face {
-  font-family: radnikanext;
-  src: url(/public/static/radnikanext-medium-webfont.woff2);
-  format:('woff2');
+  font-family: gilroy;
+  src: url(/public/static/Gilroy-Light.otf);
+  format:('otf');
   font-weight: normal;
   font-style: normal;
 }
 
 :root{
-  --black: #393939;
-  --red: #ff0000;
-  --gray: #3a3a3a;
-  --light-gray: #e1e1e1;
+  --call-to-action: #f05830;
+  --th-green: #236e57;
+  --heading: #0d0d0d;
+  --text-color: #807d7d;
   --offWhite: #ededed;
-  --max-width: 1000px;
   --boxShadow: 0 12px 24px 0 rgba(0, 0, 0, .9);
   box-sizing: border-box;
 }
