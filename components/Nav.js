@@ -3,6 +3,17 @@ import React from "react";
 import styled from "styled-components";
 
 const Navigation = styled.nav`
+  @media screen and (min-width: 320px) {
+    & {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 720px) {
+    & {
+      display: block;
+    }
+  }
+
   ul {
     list-style: none;
     display: flex;
