@@ -1,13 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 const HamburgerElement = styled.div`
-  .hamburger {
-    width: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    cursor: pointer;
-  }
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  cursor: pointer;
 
   .hamburger:hover > .outer-line:first-of-type {
     transform: translateY(-3px);
