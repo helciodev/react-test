@@ -1,5 +1,7 @@
 import React from "react";
+
 import styled from "styled-components";
+import Button from "./Button";
 import Hamburger from "./Hamburger";
 import Logo from "./Logo";
 import Nav from "./Nav";
@@ -15,6 +17,7 @@ function Header() {
       <Logo />
       <Nav />
       <Hamburger />
+      <Button text='Download' />
     </HeaderElement>
   );
 }
