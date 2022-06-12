@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Banner from "../sections/Banner";
+import WhyUs from "../sections/WhyUs";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
       <main>
         <Banner />
+        <WhyUs />
       </main>
     </>
   );
