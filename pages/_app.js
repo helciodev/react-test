@@ -6,9 +6,9 @@ const GlobalStyles = createGlobalStyle`
   box-sizing: inherit;
 }
 @font-face {
-  font-family: gilroy;
-  src: url(/public/static/Gilroy-Light.otf);
-  format:('otf');
+  font-family: Poppins;
+  src: url(/public/static/Poppins-Regular.ttf);
+  format:('ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,7 +25,7 @@ const GlobalStyles = createGlobalStyle`
 }
 
 body {
-  font-family: 'radnikanext',--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Poppins',--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   padding: 0;
   margin: 0;
@@ -40,7 +40,7 @@ a {
 /* APPLY SAME FONT FAMILY TO BUTTONS */
 
 button {
-  font-family: 'radnikanext',--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Poppins',--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 `;
 

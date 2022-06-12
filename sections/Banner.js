@@ -1,16 +1,19 @@
 import React from "react";
 import styled from "styled-components";
+
 const BannerSection = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 3rem;
   .info {
+    text-align: center;
     h2 {
       color: var(--black);
       font-weight: 700;
       line-height: 38px;
       letter-spacing: 1.6;
-    }
-
-    h2 p {
-      text-align: center;
     }
 
     p {

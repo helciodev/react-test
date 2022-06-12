@@ -9,7 +9,7 @@ const HeaderElement = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.75rem 1.5rem;
+  padding: 1rem 1.5rem;
 `;
 function Header() {
   return (
