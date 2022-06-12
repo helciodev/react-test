@@ -22,16 +22,12 @@ const CardElement = styled.div`
   box-shadow: 25px 25px 100px rgba(166, 161, 157, 0.2);
   border-radius: 12px;
 `;
-function Card() {
+function Card({ bgColor, img, title, details }) {
   return (
     <CardElement>
-      <Image
-        style={{ backgroundColor: element.bgColor }}
-        src={Element.img}
-        alt={element.altText}
-      />
-      <p>{element.title}</p>
-      <p>{element.details}</p>
+      <Image style={{ backgroundColor: bgColor }} src={img} alt={altText} />
+      <p>{title}</p>
+      <p>{details}</p>
     </CardElement>
   );
 }
