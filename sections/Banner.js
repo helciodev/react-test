@@ -21,6 +21,19 @@ const BannerSection = styled.section`
       color: var(--text-color);
     }
   }
+
+  .mobile-crypto {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+
+    img {
+      position: absolute;
+    }
+
+    .green-pattern-bg {
+    }
+  }
 `;
 
 function Banner() {
@@ -40,6 +53,7 @@ function Banner() {
           src={mobileCrypto}
           alt='mobile phone illustrating crypto currency'
         />
+        <div className='green-pattern-bg'></div>
       </div>
     </BannerSection>
   );

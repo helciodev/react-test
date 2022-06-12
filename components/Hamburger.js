@@ -1,6 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+
 const HamburgerElement = styled.div`
+  @media screen and (min-width: 720px) {
+    & {
+      display: none;
+    }
+  }
   width: 30px;
   display: flex;
   flex-direction: column;
