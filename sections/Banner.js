@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Button from "../components/Button";
 import styled from "styled-components";
 import mobileCrypto from "../assets/mobile-crypto.png";
 import pattern from "../assets/pattern-background.png";
@@ -39,11 +40,22 @@ const BannerSection = styled.section`
     .green-pattern-bg {
       width: 200px;
       height: 100px;
-      border: 1px solid red;
       /* background-image: url(${pattern}); */
       background: #236e57 url(${pattern});
       border-top-left-radius: 100px;
       border-bottom-left-radius: 100px;
+    }
+  }
+
+  .call-to-action {
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .video {
+      display: flex;
+      gap: 9px;
     }
   }
 `;
@@ -65,14 +77,32 @@ function Banner() {
           src={mobileCrypto}
           alt='mobile phone illustrating crypto currency'
         />
+
         <div className='green-pattern-bg'></div>
       </div>
 
       <div className='call-to-action'>
         <div className='video'>
-          <Image src={videoPlayer} alt='video player icon' />
+          <Image
+            className='player-button'
+            src={videoPlayer}
+            alt='video player icon'
+          />
           <h3>Watch Video</h3>
         </div>
+        <Button text='Get started' />
+
+        <div className='users-and-features'>
+          <div className='users'>
+            <p>19k+</p>
+            <p>Active Users</p>
+          </div>
+          <div className='features'>
+            <p>20+</p>
+            <p>New Features</p>
+          </div>
+        </div>
+        <div className='recommended'>recommended by</div>
       </div>
     </BannerSection>
   );
