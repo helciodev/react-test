@@ -7,11 +7,11 @@ const HamburgerElement = styled.div`
   align-items: end;
   cursor: pointer;
 
-  .hamburger:hover > .outer-line:first-of-type {
+  &:hover > .outer-line:first-of-type {
     transform: translateY(-3px);
   }
 
-  .hamburger:hover > .outer-line:last-of-type {
+  &:hover > .outer-line:last-of-type {
     transform: translateY(3px);
   }
 

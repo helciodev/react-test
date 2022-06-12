@@ -8,13 +8,14 @@ const ThLogo = styled.div`
     line-height: 1.8rem;
     display: flex;
     align-items: baseline;
-  }
-  .red-dot {
-    background-color: var(--call-to-action);
-    height: 4px;
-    width: 4px;
-    border-radius: 50px;
-    color: transparent;
+
+    .red-dot {
+      background-color: var(--call-to-action);
+      height: 4px;
+      width: 4px;
+      border-radius: 50px;
+      color: transparent;
+    }
   }
 `;
 function Logo() {

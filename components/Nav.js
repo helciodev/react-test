@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import styled from "styled-components";
+
 const Navigation = styled.nav`
   ul {
     list-style: none;
@@ -7,18 +9,20 @@ const Navigation = styled.nav`
     gap: 3.5rem;
   }
 
-  li {
-    a {
-      text-decoration: none;
-      color: var(--black);
-      font-weight: 500;
-      line-height: 2rem;
-    }
+  a {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 2rem;
+  }
+
+  a:hover {
+    color: var(--call-to-action);
+    transition: all 0.3s ease;
   }
 `;
 function Nav() {
   return (
-    <Nav>
+    <Navigation>
       <ul>
         <li>
           <Link href='#'>About Us</Link>
@@ -33,7 +37,7 @@ function Nav() {
           <Link href='#'>Support</Link>
         </li>
       </ul>
-    </Nav>
+    </Navigation>
   );
 }
 

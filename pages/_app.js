@@ -35,9 +35,6 @@ a {
   color: var(--black);
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
 /* APPLY SAME FONT FAMILY TO BUTTONS */
 
