@@ -17,6 +17,7 @@ const GlobalStyles = createGlobalStyle`
   --call-to-action: #f05830;
   --th-green: #236e57;
   --black: #0d0d0d;
+  --white: #fff;
   --text-color: #807d7d;
   --offWhite: #ededed;
   --boxShadow: 0 12px 24px 0 rgba(0, 0, 0, .9);
