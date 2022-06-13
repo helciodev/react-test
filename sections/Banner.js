@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Button from "../components/Button";
 import { BannerSection } from "../styles/banner";
-import mobileCrypto from "../assets/mobile-crypto.png";
+import mobileCrypto from "../assets/banner.jpeg";
 
 import videoPlayer from "../assets/play-circle.png";
 import coinbase from "../assets/coinbase.png";
@@ -27,8 +27,6 @@ function Banner() {
           src={mobileCrypto}
           alt='mobile phone illustrating crypto currency'
         />
-
-        <div className='green-pattern-bg'></div>
       </div>
 
       <div className='call-to-action'>
