@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const ButtonElement = styled.button`
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 51px) {
     & {
       display: none;
     }
