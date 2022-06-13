@@ -13,8 +13,14 @@ const CardElement = styled.div`
   height: 350px;
 
   @media screen and (min-width: 720px) {
-    & {
-      width: 30%;
+    .card-title {
+      font-size: 48px;
+      width: 212px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .card-title {
+      font-size: 67px;
     }
   }
   .pic-container {
