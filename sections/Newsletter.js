@@ -29,7 +29,8 @@ const NewsLetterSection = styled.section`
     button {
       height: 56px;
       width: 195px;
-
+      font-size: 16px;
+      font-weight: 800;
       border-radius: 5px;
       padding: 24px, 48px, 24px, 48px;
       background-color: var(--call-to-action);
