@@ -3,7 +3,38 @@ import React from "react";
 import styled from "styled-components";
 import cryptoIllustration from "../assets/mobile-crypto-illustration.jpeg";
 import SectionText from "../components/SectionText";
-const DownloadAppSection = styled.section``;
+import appleLogo from "../assets/apple.png";
+import playStoreLogo from "../assets/playstore.png";
+
+const DownloadAppSection = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .play-google-buttons {
+    display: flex;
+    gap: 1rem;
+
+    button {
+      height: 47.679012298583984px;
+      width: 153.25396728515625px;
+      left: 24px;
+      top: 3154.605224609375px;
+      border-radius: 5.108465671539307px;
+      border: 1px solid var(--text-color);
+      background-color: var(--black);
+      padding: 13px, 22px, 13px, 22px;
+    }
+
+    .play {
+        play-google-buttons
+    }
+    .google img {
+      max-width: 20px;
+      max-height: 22.48px;
+    }
+  }
+`;
 function DownloadApp() {
   const heading = `
     Available and Download Anytime!
@@ -21,8 +52,20 @@ A Lorem Ipsum is simply
       <div className='download-app-text-info'>
         <SectionText heading={heading} text={text} />
         <div className='play-google-buttons'>
-          <button className='google'></button>
-          <button className='play'></button>
+          <button className='google'>
+            <Image src={playStoreLogo} alt='google play logo' />
+            <div className='get-it-google'>
+              <p>GET IT ON</p>
+              <p>Google Play</p>
+            </div>
+          </button>
+          <button className='play'>
+            <Image src={appleLogo} alt='apple logo' />
+            <div className='get-it-apple'>
+              <p>Download on the</p>
+              <p>App Store</p>
+            </div>
+          </button>
         </div>
       </div>
     </DownloadAppSection>
