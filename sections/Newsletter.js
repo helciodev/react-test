@@ -49,7 +49,7 @@ function Newsletter() {
   }
   return (
     <NewsLetterSection>
-      <SectionText heading={heading} text={text} />
+      <SectionText white={true} heading={heading} text={text} />
 
       <form onSubmit={handleForm}>
         <input type='text' placeholder='Email Address' />

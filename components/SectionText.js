@@ -20,11 +20,11 @@ const InfoWrapper = styled.div`
     text-align: center;
   }
 `;
-function SectionText({ text, heading }) {
+function SectionText({ text, heading, white }) {
   return (
     <InfoWrapper>
-      <h2>{heading}</h2>
-      <p>{text}</p>
+      <h2 style={{ color: white ? "#ffff" : "" }}>{heading}</h2>
+      <p style={{ color: white ? "#BDBDBD" : "" }}>{text}</p>
     </InfoWrapper>
   );
 }
