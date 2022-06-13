@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import pattern from "../assets/pattern-background.png";
+
 export const BannerSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 2rem 3rem;
 
   .info {
     text-align: center;
@@ -41,8 +40,6 @@ export const BannerSection = styled.section`
     .green-pattern-bg {
       width: 200px;
       height: 100px;
-      /* background-image: url(${pattern}); */
-      background: #236e57 url(${pattern});
       border-top-left-radius: 100px;
       border-bottom-left-radius: 100px;
     }

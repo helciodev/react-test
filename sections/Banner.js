@@ -4,7 +4,7 @@ import Button from "../components/Button";
 import { BannerSection } from "../styles/banner";
 import mobileCrypto from "../assets/frame-1.png";
 
-import videoPlayer from "../assets/play-circle.svg";
+import videoPlayer from "../assets/play-circle.png";
 import coinbase from "../assets/coinbase.svg";
 import blockChain from "../assets/blockchain.svg";
 import bitMex from "../assets/bitmex.svg";
