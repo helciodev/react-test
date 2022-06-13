@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const BannerSection = styled.section`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
 
   .info {
     text-align: center;
@@ -27,22 +27,21 @@ export const BannerSection = styled.section`
     }
   }
 
-  .mobile-crypto {
+  /* /* .mobile-crypto {
     display: flex;
     position: relative;
     justify-content: flex-end;
 
     img {
-      /* position: absolute; */
-      top: 10px;
-      /* right: 0; */
-    }
-    .green-pattern-bg {
-      width: 200px;
-      height: 100px;
-      border-top-left-radius: 100px;
-      border-bottom-left-radius: 100px;
-    }
+      position: absolute;
+     
+      
+    } */
+  .green-pattern-bg {
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
   }
 
   .call-to-action {
