@@ -23,15 +23,43 @@ const DownloadAppSection = styled.section`
       border-radius: 5.108465671539307px;
       border: 1px solid var(--text-color);
       background-color: var(--black);
-      padding: 13px, 22px, 13px, 22px;
+      padding: 13px 22px;
+      cursor: pointer;
+      &:hover {
+        border: 1px solid #fff;
+      }
     }
 
-    .play {
-        play-google-buttons
-    }
     .google img {
       max-width: 20px;
       max-height: 22.48px;
+    }
+
+    .google,
+    .play {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      .get-it-google {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+
+        & > :first-child {
+          margin-bottom: -10px;
+        }
+      }
+      .get-it-apple {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+
+        & > :first-child {
+          margin-bottom: -10px;
+          font-size: 10px;
+        }
+      }
     }
   }
 `;
