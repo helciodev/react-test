@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Banner from "../sections/Banner";
+import ChooseAndCovert from "../sections/ChooseAndCovert";
 import WhyUs from "../sections/WhyUs";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Banner />
         <WhyUs />
+        <ChooseAndCovert />
       </main>
     </>
   );
