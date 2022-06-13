@@ -1,70 +1,8 @@
 import Link from "next/link";
+import { FacebookLogo, InstagramLogo, TwitterLogo } from "phosphor-react";
 import React from "react";
-import styled from "styled-components";
 import Logo from "../components/Logo";
-const FooterElement = styled.footer`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-
-  .rights {
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0.016em;
-    text-align: center;
-  }
-
-  .about-and-support {
-    display: flex;
-    gap: 80px;
-    text-align: center;
-
-    .about {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      text-align: center;
-    }
-
-    ul {
-      list-style: none;
-      margin-top: -5px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      li {
-        margin-right: 2rem;
-      }
-      a {
-        color: var(--text-color);
-        text-decoration: none;
-        &:hover {
-          color: #999;
-        }
-      }
-    }
-  }
-  .logo-and-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-  }
-  .logo-and-info p {
-    //styleName: Body Text/Small/Regular;
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0.016em;
-    text-align: center;
-  }
-`;
+import { FooterElement } from "../styles/footer";
 function Footer() {
   return (
     <FooterElement>
@@ -110,7 +48,11 @@ function Footer() {
           printing and typesetting industry. Lorem Ipsum has been the
           industry&lsquo;s standard. All rights reserved@2021
         </p>
-        <div className='social'></div>
+        <div className='social'>
+          <FacebookLogo />
+          <TwitterLogo />
+          <InstagramLogo />
+        </div>
       </div>
 
       <div className='rights'>

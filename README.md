@@ -1,34 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Popcorn-and-chill
+
+## Table of contents
+
+- [About](#about)
+- [Live Demo](#live-demo)
+- [Built with](#built-with)
+- [Getting started](#getting-started)
+  - [Installation instructions](#installation-instructions)
+  - [Testing](#testing)
+- [Author](#author)
+- [Show your support](#show-your-support)
+- [License](#-license)
+
+---
+
+## About
+
+This a project with the intention to test my React knowledge, capability to write clean and maintainable code.
+The project is about replicate this landing page [smart crypto landing page](<https://www.figma.com/file/j5mc2Vl9LvAuHnK1q5ly4y/Smart-Crypto-Wallet-Landing-Page-UI-UX-Responsive-Design-(Community)?node-id=1%3A2>)
+
+![Screenshot-main-page](assets/smart-crypto.jpeg)
+
+## Live Demo
+
+This project is hosted on Netlify.
+
+[Live demo link](https://effulgent-twilight-1e4afe.netlify.app/)
+
+## Built With
+
+- [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+- [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+- Nextjs
 
 ## Getting Started
 
-First, run the development server:
+### Installation instructions
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Navigate to the directory where you want this project to clone and then clone it
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  ```
+  git clone https://github.com/helciodev/react-test
+  ```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Navigate to the `react-test` directory
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  ```
+  cd react-test
+  ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Install the npm package with `npm install`
+- Start the server with `npm run dev`
+- The site should automatically open in your browser at http://localhost:3000/ if it didn't then open your browser with that link.
 
-## Learn More
+### testing
 
-To learn more about Next.js, take a look at the following resources:
+- Run npm test to run tests
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+😎 **Helcio André**
 
-## Deploy on Vercel
+- GitHub: [@helciodev](https://github.com/helciodev)
+- Twitter: [@helcio_bruno](https://twitter.com/helcio_bruno)
+- Linkedin: [Helcio Andre](https://www.linkedin.com/in/helcio-andre/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project, thanks for reading!
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.## Available Scripts
