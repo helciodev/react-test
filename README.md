@@ -1,4 +1,4 @@
-# Popcorn-and-chill
+# smart crypto landing page
 
 ## Table of contents
 
@@ -6,8 +6,9 @@
 - [Live Demo](#live-demo)
 - [Built with](#built-with)
 - [Getting started](#getting-started)
+
   - [Installation instructions](#installation-instructions)
-  - [Testing](#testing)
+
 - [Author](#author)
 - [Show your support](#show-your-support)
 - [License](#-license)
