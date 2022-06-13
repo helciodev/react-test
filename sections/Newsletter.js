@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import pattern from "../assets/pattern-background.png";
 import SectionText from "../components/SectionText";
 const NewsLetterSection = styled.section`
   background-color: var(--th-green);
