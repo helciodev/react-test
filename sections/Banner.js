@@ -2,13 +2,13 @@ import Image from "next/image";
 import React from "react";
 import Button from "../components/Button";
 import { BannerSection } from "../styles/banner";
-import mobileCrypto from "../assets/banner.jpeg";
+import mobileCrypto from "../assets/frame-1.png";
 
-import videoPlayer from "../assets/play-circle.png";
-import coinbase from "../assets/coinbase.png";
-import blockChain from "../assets/block-chain.png";
-import bitMex from "../assets/bitmex.png";
-import binance from "../assets/binance.png";
+import videoPlayer from "../assets/play-circle.svg";
+import coinbase from "../assets/coinbase.svg";
+import blockChain from "../assets/blockchain.svg";
+import bitMex from "../assets/bitmex.svg";
+import binance from "../assets/binance.svg";
 
 function Banner() {
   return (

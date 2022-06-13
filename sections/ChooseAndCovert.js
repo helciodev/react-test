@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
 import SectionText from "../components/SectionText";
-import cryptoAndPc from "../assets/computer-and-crypto.jpeg";
+import cryptoAndPc from "../assets/frame-2.png";
 
 const ChooseAndConvertSection = styled.section`
   padding: 2rem 3rem;
