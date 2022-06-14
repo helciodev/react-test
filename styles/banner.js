@@ -318,8 +318,27 @@ export const BannerSection = styled.section`
         }
       }
     }
-    .recommended {
-      border: 1px solid red;
+    .call-to-action {
+      width: 100%;
+      .recommended {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0.016em;
+        text-align: center;
+
+        &::after,
+        &::before {
+          width: 388.57px;
+          border: 2px solid var(--call-to-action);
+        }
+        &:after {
+          right: -436px;
+        }
+        &::before {
+          left: -436px;
+        }
+      }
     }
   }
 
@@ -329,6 +348,24 @@ export const BannerSection = styled.section`
       .video-medium {
         display: none;
       }
+    }
+  }
+
+  .brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 26px;
+    margin-bottom: 45px;
+    .brand-img {
+      /* display: block; */
+      /* border: 1px solid red; */
+      width: 18%;
+    }
+
+    .brand-img:nth-of-type(2) {
+      width: 23%;
     }
   }
 `;
