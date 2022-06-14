@@ -28,6 +28,11 @@ const ButtonElement = styled.button`
   align-items: center;
   gap: 8px;
   cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.016em;
+  text-align: left;
 
   &:hover {
     background-color: #cc4520;

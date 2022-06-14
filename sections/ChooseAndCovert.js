@@ -17,10 +17,6 @@ const ChooseAndConvertSection = styled.section`
     border-bottom-right-radius: 100px;
     height: 206px;
     z-index: 1;
-    img {
-      z-index: 3;
-      height: 100px;
-    }
   }
   button {
     height: 56px;
