@@ -8,9 +8,10 @@ const CardElement = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 80px;
+  padding: 10px;
   gap: 16px;
   height: 350px;
+  transition: all 0.3s ease-in-out;
 
   .pic-container {
     border-radius: 10px;
@@ -27,7 +28,7 @@ const CardElement = styled.div`
     line-height: 24px;
     letter-spacing: 0.016em;
     text-align: left;
-    width: 106px;
+    width: 129px;
     text-align: center;
     margin-bottom: 2px;
   }
@@ -41,6 +42,7 @@ const CardElement = styled.div`
     color: var(--text-color);
     width: 114px;
     height: 64px;
+    -webkit-line-clamp: 3;
   }
   &:hover {
     background: linear-gradient(

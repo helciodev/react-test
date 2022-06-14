@@ -13,8 +13,10 @@ const WhyUsSection = styled.section`
     }
 
     @media screen and (min-width: 720px) {
+      /* padding-left: 60px;
+      padding-right: 60px; */
       & > * {
-        width: 430px;
+        width: 380px;
       }
     }
   }

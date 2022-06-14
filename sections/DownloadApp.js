@@ -13,7 +13,8 @@ const DownloadAppSection = styled.section`
 
   .play-google-buttons {
     display: flex;
-    gap: 1rem;
+    justify-content: space-around;
+    margin-top: 40px;
 
     button {
       height: 47.679012298583984px;
@@ -62,6 +63,21 @@ const DownloadAppSection = styled.section`
       }
     }
   }
+
+  @media screen and (min-width: 720px) {
+    flex-direction: row-reverse;
+    .play-google-buttons {
+      width: 410px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+
+      button {
+        width: 180px;
+        height: 56px;
+      }
+    }
+  }
 `;
 function DownloadApp() {
   const heading = `
@@ -78,7 +94,7 @@ A Lorem Ipsum is simply
         <Image src={cryptoIllustration} alt='illustration about crypto' />
       </div>
       <div className='download-app-text-info'>
-        <SectionText heading={heading} text={text} />
+        <SectionText left textSmall heading={heading} text={text} />
         <div className='play-google-buttons'>
           <button className='google'>
             <Image src={playStoreLogo} alt='google play logo' />

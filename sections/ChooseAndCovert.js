@@ -5,19 +5,16 @@ import SectionText from "../components/SectionText";
 import cryptoAndPc from "../assets/frame-2.png";
 
 const ChooseAndConvertSection = styled.section`
-  padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   .choose-and-convert-img {
     align-self: flex-start;
-    margin-bottom: 7rem;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    height: 206px;
-    z-index: 1;
+    margin-bottom: 43px;
+    /* height: 206px; */
   }
+
   button {
     height: 56px;
     width: 327px;
@@ -39,6 +36,38 @@ const ChooseAndConvertSection = styled.section`
     background-color: var(--call-to-action);
     color: #fff;
   }
+
+  .choose-and-convert-text-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (min-width: 720px) {
+    flex-direction: row;
+    gap: 4rem;
+
+    align-items: flex-start;
+
+    .choose-and-convert-img {
+      width: 665px;
+    }
+
+    .choose-and-convert-text-info {
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    button {
+      width: 316px;
+      height: 70px;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      margin-top: 62px;
+    }
+  }
 `;
 function ChooseAndCovert() {
   const heading = `
@@ -57,7 +86,7 @@ A Lorem Ipsum is simply`;
       </div>
 
       <div className='choose-and-convert-text-info'>
-        <SectionText heading={heading} text={text} />
+        <SectionText textLarge left heading={heading} text={text} />
 
         <button>Choose your Wallet</button>
       </div>
