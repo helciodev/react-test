@@ -5,12 +5,13 @@ import fingerPrint from "../assets/fingerprint.svg";
 import dollarSymbol from "../assets/dollar-symbol.svg";
 import creditCard from "../assets/credit-card.svg";
 
+const details = `A Lorem Ipsum is simply dummy text of the printing and typesetting industry`;
 export const cardElements = [
   {
     bgColor: "#E6FDF6",
     img: saving,
     title: "Digital Saving",
-    details: "A Lorem Ipsum is simply dummy text of the",
+    details,
     altText: "saving",
   },
 
@@ -18,21 +19,21 @@ export const cardElements = [
     bgColor: "#FEEFEB",
     img: dollarSymbol,
     title: "Online Investment",
-    details: "A Lorem Ipsum is simply dummy text of the",
+    details,
     altText: "online",
   },
   {
     bgColor: "#E7E6EF",
     img: shieldDark,
     title: "Secure and Fast",
-    details: "A Lorem Ipsum is simply dummy text of the",
+    details,
     altText: "secure",
   },
   {
     bgColor: "#ECF3F1",
     img: creditCard,
     title: "Purchase via Cards",
-    details: "A Lorem Ipsum is simply dummy text of the",
+    details,
     altText: "cards",
     active: true,
   },
@@ -40,14 +41,14 @@ export const cardElements = [
     bgColor: "#FDEFEF",
     img: fingerPrint,
     title: "Instant and fee-free transaction",
-    details: "A Lorem Ipsum is simply dummy text of the",
+    details,
     altText: "instant",
   },
   {
     bgColor: "#EBF3FE",
     img: shieldBlue,
     title: "Secure and Fast",
-    details: "A Lorem Ipsum is simply dummy text of the",
+    details,
     altText: "Secure",
   },
 ];

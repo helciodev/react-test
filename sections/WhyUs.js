@@ -14,7 +14,7 @@ const WhyUsSection = styled.section`
 
     @media screen and (min-width: 720px) {
       & > * {
-        width: 32%;
+        width: 430px;
       }
     }
   }
