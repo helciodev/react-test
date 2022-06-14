@@ -39,6 +39,19 @@ const NewsLetterSection = styled.section`
       text-align: center;
     }
   }
+
+  @media screen and (min-width: 720px) {
+    form {
+      flex-direction: row;
+      gap: 0;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      button {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    }
+  }
 `;
 
 function Newsletter() {
