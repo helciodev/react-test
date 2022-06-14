@@ -37,10 +37,6 @@ export const BannerSection = styled.section`
     }
   }
 
-  .features-and-users-medium {
-    display: none;
-  }
-
   .call-to-action {
     padding: 1rem 1rem;
     display: flex;
@@ -324,6 +320,15 @@ export const BannerSection = styled.section`
     }
     .recommended {
       border: 1px solid red;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .info {
+      .features-and-users-medium,
+      .video-medium {
+        display: none;
+      }
     }
   }
 `;
