@@ -20,13 +20,13 @@
 This a project with the intention to test my React knowledge, capability to write clean and maintainable code.
 The project is about replicate this landing page [smart crypto landing page](<https://www.figma.com/file/j5mc2Vl9LvAuHnK1q5ly4y/Smart-Crypto-Wallet-Landing-Page-UI-UX-Responsive-Design-(Community)?node-id=1%3A2>)
 
-![Screenshot-main-page](assets/smart-crypto.jpeg)
+![Screenshot-main-page](assets/smart-crypto-wallet.jpeg)
 
 ## Live Demo
 
 This project is hosted on Netlify.
 
-[Live demo link](https://effulgent-twilight-1e4afe.netlify.app/)
+[Live demo link](https://react-test-helciodev.netlify.app/)
 
 ## Built With
 
