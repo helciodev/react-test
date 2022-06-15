@@ -24,7 +24,9 @@ const GlobalStyles = createGlobalStyle`
   --boxShadow: 0 12px 24px 0 rgba(0, 0, 0, .9);
   box-sizing: border-box;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 body {
   background-color: #FFF8F1;
   font-family: 'Poppins',--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
