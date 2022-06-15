@@ -27,7 +27,7 @@ function WhyUs() {
   const text = `A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s.`;
   return (
     <WhyUsSection>
-      <SectionText heading={headingText} text={text} />
+      <SectionText center heading={headingText} text={text} />
       <div className='card-container'>
         {cardElements.map((element) => {
           return <Card key={element.bgColor} {...element} />;

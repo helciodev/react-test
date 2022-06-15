@@ -12,7 +12,7 @@ const HeaderElement = styled.header`
   background-color: #fff8f1;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2rem 1.5rem;
 
   .drawer {
@@ -47,31 +47,33 @@ function Header() {
       enabled={true}
       innerZ={1000}
       activeClass='box-shadow'
-      releasedClass='box-shadow'
       innerActiveClass='box-shadow'
+      releasedClass='released'
       top={0}
     >
       <HeaderElement>
-        <Drawer
-          className='drawer'
-          open={isOpen}
-          onClose={toggleDrawer}
-          direction='left'
-        >
-          <nav className='mobile-nav'>
-            <ul>
-              <li>
-                <Link href='#'>Home</Link>
-              </li>
-              <li>
-                <Link href='#'>About Us</Link>
-              </li>
-              <li>
-                <Link href='#'>Get the app</Link>
-              </li>
-            </ul>
-          </nav>
-        </Drawer>
+        {isOpen && (
+          <Drawer
+            className='drawer'
+            open={isOpen}
+            onClose={toggleDrawer}
+            direction='left'
+          >
+            <nav className='mobile-nav'>
+              <ul>
+                <li>
+                  <Link href='#'>Home</Link>
+                </li>
+                <li>
+                  <Link href='#'>About Us</Link>
+                </li>
+                <li>
+                  <Link href='#'>Get the app</Link>
+                </li>
+              </ul>
+            </nav>
+          </Drawer>
+        )}
         <Logo />
         <Nav />
         <Hamburger toggleDrawer={toggleDrawer} />

@@ -67,4 +67,32 @@ export const FooterElement = styled.footer`
     display: flex;
     gap: 0.4rem;
   }
+
+  @media screen and (min-width: 720px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+    .logo-and-info {
+      order: 0;
+      width: 30%;
+    }
+    .about-and-support {
+      order: 1;
+      width: 70%;
+      justify-content: center;
+
+      .about,
+      .support {
+        li {
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    .rights {
+      order: 2;
+      width: 100%;
+    }
+  }
 `;

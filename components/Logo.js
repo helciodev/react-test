@@ -6,6 +6,7 @@ const ThLogo = styled.div`
     color: var(--th-green);
     font-size: 1.5rem;
     line-height: 1.8rem;
+    justify-self: flex-start;
     display: flex;
     align-items: baseline;
     cursor: pointer;

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import SectionText from "../components/SectionText";
+import pattern from "../assets/pattern.png";
 const NewsLetterSection = styled.section`
   background-color: var(--th-green);
   display: flex;
@@ -8,6 +9,7 @@ const NewsLetterSection = styled.section`
   align-items: center;
   padding: 20px 15px;
   margin-top: 2rem;
+  background-image: url(${pattern});
 
   form {
     display: flex;
@@ -18,7 +20,7 @@ const NewsLetterSection = styled.section`
     input {
       background-color: transparent;
       outline: none;
-      border: 1px solid var(--text-color);
+      border: 1px solid #fff8f1;
       height: 56px;
       width: 327px;
       color: wheat;
@@ -41,8 +43,10 @@ const NewsLetterSection = styled.section`
   }
 
   @media screen and (min-width: 720px) {
+    padding: 41px 200px;
     form {
       flex-direction: row;
+      margin-bottom: 41px;
       gap: 0;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
