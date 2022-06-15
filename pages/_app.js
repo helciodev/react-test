@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import Layout from "../components/Layout";
+import "../styles/stickyStyle.css";
 
 const GlobalStyles = createGlobalStyle`
 *, *::after, *::before {

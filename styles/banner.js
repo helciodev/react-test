@@ -342,7 +342,7 @@ export const BannerSection = styled.section`
     }
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 719px) {
     .info {
       .features-and-users-medium,
       .video-medium {

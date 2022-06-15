@@ -8,6 +8,7 @@ const ThLogo = styled.div`
     line-height: 1.8rem;
     display: flex;
     align-items: baseline;
+    cursor: pointer;
 
     .red-dot {
       background-color: var(--call-to-action);
