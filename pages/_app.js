@@ -52,7 +52,7 @@ button {
 
 @media screen and (min-width: 720px){
 body, html {
-  overflow-x: auto;
+  overflow-x: visible;
 }
 }
 `;
