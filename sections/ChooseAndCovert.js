@@ -22,6 +22,7 @@ const ChooseAndConvertSection = styled.section`
     padding: 24px, 48px, 24px, 48px;
     outline: none;
     border: 1px solid var(--call-to-action);
+    background-color: transparent;
     color: var(--call-to-action);
     font-size: 16px;
     font-weight: 700;

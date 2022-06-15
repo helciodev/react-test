@@ -76,6 +76,11 @@ export const FooterElement = styled.footer`
     .logo-and-info {
       order: 0;
       width: 30%;
+      align-items: start;
+
+      p {
+        text-align: left;
+      }
     }
     .about-and-support {
       order: 1;
