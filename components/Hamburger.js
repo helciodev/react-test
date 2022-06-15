@@ -57,9 +57,9 @@ const HamburgerElement = styled.div`
     width: 6.64px;
   }
 `;
-function Hamburger() {
+function Hamburger({ toggleDrawer }) {
   return (
-    <HamburgerElement className='hamburger'>
+    <HamburgerElement onClick={toggleDrawer} className='hamburger'>
       <div className='outer-line'></div>
       <div className='line'>
         <div className='inner-line'></div>

@@ -18,9 +18,9 @@ const ThLogo = styled.div`
     }
   }
 `;
-function Logo() {
+function Logo({ onClick }) {
   return (
-    <ThLogo>
+    <ThLogo onClick={onClick}>
       <h1>
         B<div className='red-dot'></div>Th
       </h1>
